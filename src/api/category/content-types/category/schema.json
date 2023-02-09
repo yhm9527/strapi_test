@@ -17,12 +17,6 @@
       "required": true,
       "unique": true
     },
-    "restaurants": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::restaurant.restaurant",
-      "inversedBy": "categories"
-    },
     "posts": {
       "type": "relation",
       "relation": "oneToMany",
